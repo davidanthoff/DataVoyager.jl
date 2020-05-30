@@ -91,7 +91,7 @@ v = dataset("cars") |> Voyager()
 
 # Now create the plot in the UI
 
-v[] |> save("figure1.vegalite")
+v[] |> save("figure1.vegalite"; include_data=false)
 ````
 
 At a later point you can then load this figure specification again, but pipe new data into it:
