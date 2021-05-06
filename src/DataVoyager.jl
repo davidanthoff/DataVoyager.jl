@@ -41,7 +41,7 @@ function (v::Voyager)(source)
 
     run(v.w, code)
 
-    return v
+return v
 end
 
 function Base.getindex(v::Voyager)
@@ -67,7 +67,7 @@ function Voyager(source)
 
     v(source)
 
-    return v
+return v
 end
 
 end # module
